@@ -1,7 +1,7 @@
 import React from 'react'
 import Login from './pages/Login'
 import {useState, useEffect} from 'react'
-export const backendUrl = import.meta.env.VITE_BACKEND_URL
+export const backendUrl = "https://job-sprouts-backend.onrender.com"
 import { Routes,Route, useNavigate } from 'react-router-dom'
 import Add from './pages/Add'
 import List from './pages/List'
