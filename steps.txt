@@ -1,0 +1,20 @@
+Make new folder with name backend
+make a new file server.js
+npm init
+npm i cors dotenv express jsonwebtoken mongoose (for database) multer (to store images on cloudinary storage) nodemon (restart backend when we make any changes in code) razorpay stripe validator (data coming from user is valid or not) cloudinary bcrypt (encrypt user password)
+Make a new folder config (Store all configurations)
+Make a new folder middleware
+Make a new folder models
+Make a new folder controllers (manage all logics of backend)
+Make a new folder routes (express server routes)
+
+Inside package.json
+"scripts":{
+	//
+	"server" : "nodemon server.js"
+}
+"type" : "module" // we can use import statments
+// const express = require("express") => import express form 'express'
+when we write npm run server, then this script will be executed
+
+Make a file .env

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.login{
+  font-family: 'Outfit';
+}
+
+.login-btn{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 100px;
+}
+
+.login-area{
+  position: absolute;
+  top:30%;
+  left: 40%;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: rgb(255, 252, 251);
+}
+
+.email{
+  border: 1px solid black;
+}
+
+.password{
+  border: 1px solid black;
+}
+
+.logout-btn{
+  background-color: rgb(86, 0, 0);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 100px;
+}
+
+
+.general{
+  border: 1px solid black;
+}
