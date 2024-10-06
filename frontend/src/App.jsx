@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import { Routes, Route } from'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-export const backendUrl = import.meta.env.VITE_BACKEND_URL
+export const backendUrl = "https://job-sprouts-backend.onrender.com"
 
 const App = () => {
   return (
